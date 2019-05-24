@@ -40,11 +40,11 @@ def bulk_tweet_shortener(tweet_arr)
   end
 end
 
-def selective_tweet_shortener(tweet_arr)
-  if tweet_arr.size > 140
-    word_substituter(tweet_arr)
+def selective_tweet_shortener(str)
+  if str.size > 140
+    word_substituter(str)
   else
-    tweet_arr
+    str
   end
 end
 
