@@ -46,7 +46,7 @@ def selective_tweet_shortener(tweet_arr)
     if i.size > 140
       puts word_substituter(i)
     else
-      puts i
+      puts i.to_s
     end
   end
 end
